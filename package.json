@@ -1,0 +1,23 @@
+{
+  "name": "notion-weekly-to-do",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "a simple automation script for delete weekly todo tasks",
+  "main": "src/app.js",
+  "scripts": {
+    "tasks:archive": "node ./src/app.js tasks:archive",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notion",
+    "todo",
+    "procastination"
+  ],
+  "author": "@OctavioQuiroz",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.3",
+    "dotenv": "^16.0.3",
+    "yargs": "^17.7.1"
+  }
+}
